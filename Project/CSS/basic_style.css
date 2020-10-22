@@ -66,7 +66,7 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
 }
 
 .squares:nth-child(4) {
-    background: 00b200;
+    background: #00b200;
 
 }
 
@@ -74,8 +74,8 @@ INDIVIDUALLY SELECT A SQUARE IN THE ARRAY
 HOVER, TRANSLATE & TRANSFORM EFFECTS
 -----------------------------------------------*/
 
-.container .squares:nth-child(-n+4) :hover {
-    background-image: url("..images/icons/smileyface1.png");
+.container .squares:nth-child(-n+4):hover {
+    background-image: url("../images/icons/smileyface1.png");
     transform: scale(.5);
     animation-name: race;
     animation-duration: 2.5s;
