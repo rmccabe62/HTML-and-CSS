@@ -88,7 +88,7 @@
   PHOTO OVERLAY TRANSITIONS
 ===========================================*/
 
-,.photo-overlay {
+.photo-overlay {
   opacity: 0;
   transition: opacity .5s;
   border-radius: 10px;
